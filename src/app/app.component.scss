@@ -31,6 +31,8 @@ ion-menu.md ion-list#inbox-list ion-list-header {
   font-weight: 600;
 
   min-height: 20px;
+
+  margin-bottom: 1rem;
 }
 
 ion-menu.md ion-list#labels-list ion-list-header {
@@ -117,3 +119,4 @@ ion-note {
 ion-item.selected {
   --color: var(--ion-color-primary);
 }
+
