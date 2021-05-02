@@ -1,7 +1,9 @@
 import {Injectable} from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 import {map} from 'rxjs/operators';
 import {Observable} from 'rxjs';
+import * as convert from 'xml-js';
+import {Game} from '../models/game';
 
 @Injectable({
   providedIn: 'root'
@@ -12,26 +14,21 @@ export class BGGService {
   constructor(private http: HttpClient) {
   }
 
-  send(url: string): Observable<any> {
-    return this.http.get(url,
-      {
-        headers: new HttpHeaders()
-          .set('Content-Type', 'text/xml')
-          .append('Access-Control-Allow-Methods', 'GET')
-          .append('Access-Control-Allow-Origin', '*')
-          .append('Access-Control-Allow-Headers', 'Access-Contr ol-Allow-Headers, Access-Control-Allow-Origin, Access-Control-Request-Method'),
-        responseType: 'text'
+  send(url: string): Observable<Array<Game>> {
+    return this.http.get(url, {responseType: 'text'}).pipe(
+      map(response => {
+        return convert.xml2json(response, {compact: false, spaces: 4});
+      }),
+      map(jsonrep => {
+        const json = JSON.parse(jsonrep);
+        // tslint:disable-next-line:no-string-literal
+        return json['elements'];
       })
-      .pipe(
-        map(res => {
-          console.log(res);
-          return res;
-        })
-      );
+    );
   }
 
-  search(search: string): Observable<any> {
-    const url = `${this.bggUrl}/search?search=${search}`;
+  search(search: string): Observable<Array<Game>> {
+    const url = `${this.bggUrl}/search?query=${search}&exact=1&type=boardgame`;
     return this.send(url);
   }
 }

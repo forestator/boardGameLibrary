@@ -19,7 +19,7 @@ export class GameLibraryComponent implements OnInit {
 
   ngOnInit() {
     this.games = this.gameLibraryService.getGames();
-    this.bggService.search('euphrat').subscribe(res => {
+    this.bggService.search('last+one+standing').subscribe(res => {
       console.log(res);
     });
   }
