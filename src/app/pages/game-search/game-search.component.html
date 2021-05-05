@@ -1,0 +1,48 @@
+<app-header [pageTitle]="pageTitle"></app-header>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{pageTitle}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-item>
+      <ion-label>Recherche :</ion-label>
+      <ion-input placeholder="Nom du jeu" type="text" [(ngModel)]="search" (ionChange)="doSearch()"></ion-input>
+    </ion-item>
+
+    <div *ngIf="foundGames">
+      <ion-item>
+        <ion-label>
+          Nombre de jeux trouvés : {{(foundGames | async)?.length}}
+        </ion-label>
+      </ion-item>
+    </div>
+    <div *ngFor="let game of foundGames | async">
+      <ion-card>
+        <ion-item>
+          <ion-thumbnail slot="start" *ngIf="game.attributes.id | boardGameThumbnail | async;else dice">
+            <img [src]="game.attributes.id | boardGameThumbnail | async">
+          </ion-thumbnail>
+          <ng-template #dice>
+            <ion-icon name="dice-outline" slot="start"></ion-icon>
+          </ng-template>
+          <ion-label>{{game | boardGameName}}</ion-label>
+          <ion-button fill="outline" slot="end">Ajouter à la librairie</ion-button>
+        </ion-item>
+
+        <ion-card-content>
+          <ion-button fill="outline" (click)="showGameDetails(game.attributes.id)"
+                      *ngIf="gameDetails?.attributes.id !== game.attributes.id">
+            Afficher détails
+          </ion-button>
+          <div *ngIf="gameDetails?.attributes.id === game.attributes.id">
+            <app-game-details [game]="gameDetails"></app-game-details>
+          </div>
+        </ion-card-content>
+      </ion-card>
+
+    </div>
+  </div>
+</ion-content>

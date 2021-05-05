@@ -5,10 +5,16 @@ import {GameLibraryService} from './services/game-library.service';
 import {HttpClientModule} from '@angular/common/http';
 import {IonicModule} from '@ionic/angular';
 import {BGGService} from './services/bgg.service';
+import { BoardGameNamePipe } from './pipe/board-game-name.pipe';
+import {GameDetailsComponent} from './components/game-details/game-details.component';
+import { BoardGameThumbnailPipe } from './pipe/board-game-thumbnail.pipe';
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    BoardGameNamePipe,
+    GameDetailsComponent,
+    BoardGameThumbnailPipe,
   ],
   imports: [
     CommonModule,
@@ -16,7 +22,10 @@ import {BGGService} from './services/bgg.service';
     IonicModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    BoardGameNamePipe,
+    GameDetailsComponent,
+    BoardGameThumbnailPipe,
   ],
   providers: [
     GameLibraryService,

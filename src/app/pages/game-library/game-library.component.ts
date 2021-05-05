@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {GameLibraryService} from '../../shared/services/game-library.service';
-import {Game} from '../../shared/models/game';
 import {Observable} from 'rxjs';
 import {BGGService} from '../../shared/services/bgg.service';
+import {Thing} from '../../shared/models/game';
 
 @Component({
   selector: 'app-game-library',
@@ -12,16 +12,13 @@ import {BGGService} from '../../shared/services/bgg.service';
 export class GameLibraryComponent implements OnInit {
   pageTitle = 'Ludothèque';
 
-  games: Observable<Array<Game>>;
+  games: Observable<Array<Thing>>;
 
   constructor(private gameLibraryService: GameLibraryService, private bggService: BGGService) {
   }
 
   ngOnInit() {
     this.games = this.gameLibraryService.getGames();
-    this.bggService.search('last+one+standing').subscribe(res => {
-      console.log(res);
-    });
   }
 
 }
