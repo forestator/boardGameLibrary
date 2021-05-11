@@ -3,6 +3,7 @@ import {BGGService} from '../../shared/services/bgg.service';
 import {Observable} from 'rxjs';
 import {Thing} from '../../shared/models/game';
 import {take} from "rxjs/operators";
+import {GameLibraryService} from "../../shared/services/game-library.service";
 
 @Component({
   selector: 'app-game-search',
@@ -11,11 +12,10 @@ import {take} from "rxjs/operators";
 })
 export class GameSearchComponent implements OnInit {
   pageTitle = 'Ajouter un jeu à ma librairie';
-  search: string = 'Takenoko';
+  search = 'Takenoko';
   foundGames: Observable<Array<Thing>>;
-  gameDetails: Thing;
 
-  constructor(private bggService: BGGService) {
+  constructor(private bggService: BGGService, private gameLibraryService: GameLibraryService) {
   }
 
   ngOnInit() {
@@ -29,7 +29,4 @@ export class GameSearchComponent implements OnInit {
     }
   }
 
-  showGameDetails(gameId: string) {
-    this.bggService.gameDetails(gameId).pipe(take(1)).subscribe(gameDetails => this.gameDetails = gameDetails);
-  }
 }

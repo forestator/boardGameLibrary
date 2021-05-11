@@ -6,12 +6,12 @@ import {Thing} from '../models/game';
   providedIn: 'root'
 })
 export class GameLibraryService {
-  private MOCK_GAMES: Array<Thing> = [];
+  games: Array<Thing> = [];
 
   constructor() {
   }
 
   getGames(): Observable<Array<Thing>> {
-    return of(this.MOCK_GAMES);
+    return of(this.games);
   }
 }

@@ -20,29 +20,7 @@
       </ion-item>
     </div>
     <div *ngFor="let game of foundGames | async">
-      <ion-card>
-        <ion-item>
-          <ion-thumbnail slot="start" *ngIf="game.attributes.id | boardGameThumbnail | async;else dice">
-            <img [src]="game.attributes.id | boardGameThumbnail | async">
-          </ion-thumbnail>
-          <ng-template #dice>
-            <ion-icon name="dice-outline" slot="start"></ion-icon>
-          </ng-template>
-          <ion-label>{{game | boardGameName}}</ion-label>
-          <ion-button fill="outline" slot="end">Ajouter à la librairie</ion-button>
-        </ion-item>
-
-        <ion-card-content>
-          <ion-button fill="outline" (click)="showGameDetails(game.attributes.id)"
-                      *ngIf="gameDetails?.attributes.id !== game.attributes.id">
-            Afficher détails
-          </ion-button>
-          <div *ngIf="gameDetails?.attributes.id === game.attributes.id">
-            <app-game-details [game]="gameDetails"></app-game-details>
-          </div>
-        </ion-card-content>
-      </ion-card>
-
+      <app-game-card [game]="game" [addButton]="true"></app-game-card>
     </div>
   </div>
 </ion-content>

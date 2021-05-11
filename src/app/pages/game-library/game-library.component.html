@@ -8,7 +8,7 @@
 
   <div id="container">
     <div *ngFor="let game of games | async">
-      {{game.name}}
+      <app-game-card [game]="game" [addButton]="false"></app-game-card>
     </div>
   </div>
 </ion-content>
