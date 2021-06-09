@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {Router, Event} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,7 @@ export class AppComponent {
   public appPages = [
     {title: 'Ludothèque', url: '/game-library', icon: 'mail'},
     {title: 'Ajouter Ludo', url: '/game-search', icon: 'mail'},
+    {title: 'Login', url: '/login', icon: 'mail'},
   ];
   public labels = ['Todo'];
 
