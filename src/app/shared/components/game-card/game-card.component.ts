@@ -12,14 +12,15 @@ import {GameLibraryService} from '../../services/game-library.service';
 export class GameCardComponent implements OnInit {
 
   @Input() game: Thing;
-
   @Input() addButton: boolean;
 
   @Output() addToLibraryEvent = new EventEmitter<Thing>();
+  @Output() removeFromLibraryEvent = new EventEmitter<string>();
 
   gameDetails: Thing;
 
-  constructor(private bggService: BGGService) {}
+  constructor(private bggService: BGGService) {
+  }
 
   ngOnInit() {
   }
@@ -32,4 +33,7 @@ export class GameCardComponent implements OnInit {
     this.addToLibraryEvent.next(game);
   }
 
+  removeFromLibrary(game: Thing) {
+    this.removeFromLibraryEvent.next(game.attributes.id);
+  }
 }

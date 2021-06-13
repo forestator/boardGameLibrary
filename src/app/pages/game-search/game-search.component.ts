@@ -2,8 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import {BGGService} from '../../shared/services/bgg.service';
 import {Observable} from 'rxjs';
 import {Thing} from '../../shared/models/game';
-import {take} from "rxjs/operators";
-import {GameLibraryService} from "../../shared/services/game-library.service";
+import {take} from 'rxjs/operators';
+import {GameLibraryService} from '../../shared/services/game-library.service';
 
 @Component({
   selector: 'app-game-search',
@@ -30,7 +30,7 @@ export class GameSearchComponent implements OnInit {
   }
 
   addToLibrary(thing: Thing) {
-    this.gameLibraryService.addGameToLibrary(thing).then( res => {
+    this.gameLibraryService.addGameToLibrary(thing).then(res => {
       console.log(res);
       // todo toaster
     }, err => {

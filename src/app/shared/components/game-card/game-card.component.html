@@ -1,22 +1,26 @@
 <ion-card>
-    <ion-item>
-        <ion-thumbnail slot="start" *ngIf="game.attributes.id | boardGameThumbnail | async;else dice">
-            <img [src]="game.attributes.id | boardGameThumbnail | async">
-        </ion-thumbnail>
-        <ng-template #dice>
-            <ion-icon name="dice-outline" slot="start"></ion-icon>
-        </ng-template>
-        <ion-label>{{game | boardGameName}}</ion-label>
-        <ion-button fill="outline" slot="end" (click)="addToLibrary(game)" *ngIf="addButton">Ajouter à la librairie</ion-button>
-    </ion-item>
+  <ion-item>
+    <ion-thumbnail slot="start" *ngIf="game.attributes.id | boardGameThumbnail | async;else dice">
+      <img [src]="game.attributes.id | boardGameThumbnail | async">
+    </ion-thumbnail>
+    <ng-template #dice>
+      <ion-icon name="dice-outline" slot="start"></ion-icon>
+    </ng-template>
+    <ion-label>{{game | boardGameName}}</ion-label>
+    <ion-button fill="outline" (click)="addToLibrary(game)" *ngIf="addButton">Ajouter à la librairie
+    </ion-button>
+    <ion-button fill="outline" (click)="removeFromLibrary(game)" *ngIf="!addButton">
+      <ion-icon name="trash-outline"></ion-icon>
+    </ion-button>
+  </ion-item>
 
-    <ion-card-content>
-        <ion-button fill="outline" (click)="showGameDetails(game.attributes.id)"
-                    *ngIf="gameDetails?.attributes.id !== game.attributes.id">
-            Afficher détails
-        </ion-button>
-        <div *ngIf="gameDetails?.attributes.id === game.attributes.id">
-            <app-game-details [game]="gameDetails"></app-game-details>
-        </div>
-    </ion-card-content>
+  <ion-card-content>
+    <ion-button fill="outline" (click)="showGameDetails(game.attributes.id)"
+                *ngIf="gameDetails?.attributes.id !== game.attributes.id">
+      Afficher détails
+    </ion-button>
+    <div *ngIf="gameDetails?.attributes.id === game.attributes.id">
+      <app-game-details [game]="gameDetails"></app-game-details>
+    </div>
+  </ion-card-content>
 </ion-card>
