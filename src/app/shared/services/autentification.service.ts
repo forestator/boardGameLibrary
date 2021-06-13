@@ -1,4 +1,4 @@
-import {Injectable, NgZone} from '@angular/core';
+import {Injectable} from '@angular/core';
 import {AngularFirestore, AngularFirestoreDocument} from '@angular/fire/firestore';
 import {User} from '../models/user';
 import {Router} from '@angular/router';
@@ -10,7 +10,7 @@ import * as firebase from 'firebase';
 })
 export class AutentificationService {
 
-  userData: any;
+  userData: User;
 
   constructor(
     public afStore: AngularFirestore,

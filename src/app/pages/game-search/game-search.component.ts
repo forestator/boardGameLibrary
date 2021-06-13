@@ -29,4 +29,12 @@ export class GameSearchComponent implements OnInit {
     }
   }
 
+  addToLibrary(thing: Thing) {
+    this.gameLibraryService.addGameToLibrary(thing).then( res => {
+      console.log(res);
+      // todo toaster
+    }, err => {
+      console.error(err);
+    });
+  }
 }

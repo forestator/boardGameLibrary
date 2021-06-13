@@ -14,7 +14,7 @@ export class GameLibraryComponent implements OnInit {
 
   games: Observable<Array<Thing>>;
 
-  constructor(private gameLibraryService: GameLibraryService, private bggService: BGGService) {
+  constructor(private gameLibraryService: GameLibraryService) {
   }
 
   ngOnInit() {

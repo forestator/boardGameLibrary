@@ -15,11 +15,13 @@
         </ion-list>
 
         <ion-list id="labels-list">
-          <ion-list-header>Labels</ion-list-header>
-
-          <ion-item *ngFor="let label of labels" lines="none">
-            <ion-icon slot="start" ios="bookmark-outline" md="bookmark-sharp"></ion-icon>
-            <ion-label>{{ label }}</ion-label>
+          <ion-list-header>Utilisateur</ion-list-header>
+          <ion-item lines="none" *ngIf="auth.isLoggedIn">
+            <ion-label>Bonjour {{auth.userData?.displayName}}</ion-label>
+          </ion-item>
+          <ion-item lines="none" (click)="auth.isLoggedIn ? logout() : login()">
+            <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+            <ion-label>{{auth.isLoggedIn ? 'Logout' : 'Login'}}</ion-label>
           </ion-item>
         </ion-list>
       </ion-content>

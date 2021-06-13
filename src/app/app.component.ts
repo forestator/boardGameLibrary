@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {Router, Event} from "@angular/router";
+import {AutentificationService} from './shared/services/autentification.service';
 
 @Component({
   selector: 'app-root',
@@ -10,16 +10,23 @@ export class AppComponent {
   public appPages = [
     {title: 'Ludothèque', url: '/game-library', icon: 'mail'},
     {title: 'Ajouter Ludo', url: '/game-search', icon: 'mail'},
-    {title: 'Login', url: '/login', icon: 'mail'},
   ];
-  public labels = ['Todo'];
+  public labels = ['Login'];
 
   currentPage: string;
 
-  constructor() {
+  constructor(public auth: AutentificationService) {
   }
 
   pageChange(p: { icon: string; title: string; url: string }) {
     this.currentPage = p.title;
+  }
+
+  login() {
+    this.auth.googleAuth();
+  }
+
+  logout() {
+    this.auth.signOut();
   }
 }

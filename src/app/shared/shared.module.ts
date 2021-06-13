@@ -8,7 +8,7 @@ import {BGGService} from './services/bgg.service';
 import { BoardGameNamePipe } from './pipe/board-game-name.pipe';
 import {GameDetailsComponent} from './components/game-details/game-details.component';
 import { BoardGameThumbnailPipe } from './pipe/board-game-thumbnail.pipe';
-import {GameCardComponent} from "./components/game-card/game-card.component";
+import {GameCardComponent} from './components/game-card/game-card.component';
 
 @NgModule({
   declarations: [

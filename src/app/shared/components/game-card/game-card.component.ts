@@ -1,8 +1,8 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {Thing} from "../../models/game";
-import {take} from "rxjs/operators";
-import {BGGService} from "../../services/bgg.service";
-import {GameLibraryService} from "../../services/game-library.service";
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Thing} from '../../models/game';
+import {take} from 'rxjs/operators';
+import {BGGService} from '../../services/bgg.service';
+import {GameLibraryService} from '../../services/game-library.service';
 
 @Component({
   selector: 'app-game-card',
@@ -15,10 +15,11 @@ export class GameCardComponent implements OnInit {
 
   @Input() addButton: boolean;
 
+  @Output() addToLibraryEvent = new EventEmitter<Thing>();
+
   gameDetails: Thing;
 
-  constructor(private bggService: BGGService, private gameLibraryService: GameLibraryService) {
-  }
+  constructor(private bggService: BGGService) {}
 
   ngOnInit() {
   }
@@ -28,10 +29,7 @@ export class GameCardComponent implements OnInit {
   }
 
   addToLibrary(game: Thing) {
-    const gameAdded = this.gameLibraryService.games.find(thing => thing.attributes.id === game.attributes.id);
-    if (!gameAdded) {
-      this.gameLibraryService.games.push(game);
-    }
+    this.addToLibraryEvent.next(game);
   }
 
 }

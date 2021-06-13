@@ -13,9 +13,6 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit() {
-    setInterval(() => {
-      console.log(this.auth.isLoggedIn);
-    }, 10000);
   }
 
   login() {

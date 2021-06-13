@@ -20,7 +20,7 @@
       </ion-item>
     </div>
     <div *ngFor="let game of foundGames | async">
-      <app-game-card [game]="game" [addButton]="true"></app-game-card>
+      <app-game-card [game]="game" [addButton]="true" (addToLibraryEvent)="addToLibrary($event)"></app-game-card>
     </div>
   </div>
 </ion-content>

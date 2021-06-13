@@ -21,7 +21,6 @@ export class BGGService {
       }),
       map(jsonrep => {
         const json = JSON.parse(jsonrep);
-        console.log(json['elements'][0]['elements']);
         // tslint:disable-next-line:no-string-literal
         return json['elements'][0]['elements'];
       })
