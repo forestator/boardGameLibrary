@@ -15,7 +15,7 @@
   "dependencies": {
     "@angular/common": "~12.2.14",
     "@angular/core": "~12.2.14",
-    "@angular/fire": "^6.1.5",
+    "@angular/fire": "^7.2.0",
     "@angular/forms": "~12.2.14",
     "@angular/platform-browser": "~12.2.14",
     "@angular/platform-browser-dynamic": "~12.2.14",
@@ -24,13 +24,14 @@
     "@ionic-native/firebase-authentication": "^5.33.1",
     "@ionic/angular": "^5.5.2",
     "cordova-plugin-firebase-authentication": "^4.0.2",
-    "firebase": "^8.6.5",
+    "firebase": "^9.4.0",
     "moment": "^2.29.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "xml-js": "^1.6.11",
     "xml2js": "^0.4.23",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "rxfire": "^6.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.13",
