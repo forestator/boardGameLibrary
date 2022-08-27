@@ -1,0 +1,1288 @@
+{
+  "jeuxBois": {
+  },
+  "jeuxSociete": [
+    {
+      "name": "Kakerlaken Poker",
+      "nbJoueurs": "2 à 6",
+      "age": "8+",
+      "tpsMoyen": "15'",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Quizz pays de Rennes",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "RapidCroco",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Tempête sur l'échiquier",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Imhotep Le Duel",
+      "nbJoueurs": "2",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "346",
+      "ref": "l"
+    },
+    {
+      "name": "6 qui prend",
+      "nbJoueurs": "2-10",
+      "age": "10",
+      "tpsMoyen": "45'",
+      "poids": "250",
+      "ref": "ludo 14"
+    },
+    {
+      "name": "Obscurio",
+      "nbJoueurs": "2-8",
+      "age": "10",
+      "tpsMoyen": "45'",
+      "poids": "1356",
+      "ref": "ludo100"
+    },
+    {
+      "name": "Puzzle Unicorn Garden (500pcs)",
+      "nbJoueurs": "1",
+      "age": "7",
+      "tpsMoyen": "",
+      "poids": "855",
+      "ref": "ludo101"
+    },
+    {
+      "name": "Puzzle Land & Sea (1000pcs)",
+      "nbJoueurs": "1",
+      "age": "9",
+      "tpsMoyen": "",
+      "poids": "755",
+      "ref": "ludo102"
+    },
+    {
+      "name": "Black Stories",
+      "nbJoueurs": "2-25",
+      "age": "14",
+      "tpsMoyen": "2'-30'",
+      "poids": "200",
+      "ref": "ludo103"
+    },
+    {
+      "name": "Time Bomb",
+      "nbJoueurs": "4-8",
+      "age": "8",
+      "tpsMoyen": "15'",
+      "poids": "184",
+      "ref": "ludo104"
+    },
+    {
+      "name": "Speed Mandala",
+      "nbJoueurs": "1-4",
+      "age": "6",
+      "tpsMoyen": "15'",
+      "poids": "157",
+      "ref": "ludo105"
+    },
+    {
+      "name": "Blank",
+      "nbJoueurs": "2-6",
+      "age": "6",
+      "tpsMoyen": "2-30'",
+      "poids": "284",
+      "ref": "ludo106"
+    },
+    {
+      "name": "Rêve de Trésor",
+      "nbJoueurs": "2-5",
+      "age": "5",
+      "tpsMoyen": "15'",
+      "poids": "646",
+      "ref": "ludo107"
+    },
+    {
+      "name": "La Vallée des Vikings",
+      "nbJoueurs": "2-4",
+      "age": "6",
+      "tpsMoyen": "15'",
+      "poids": "934",
+      "ref": "ludo108"
+    },
+    {
+      "name": "Ceylan",
+      "nbJoueurs": "2-4",
+      "age": "10",
+      "tpsMoyen": "45'",
+      "poids": "1556",
+      "ref": "ludo109"
+    },
+    {
+      "name": "Puzzle observation Tour Du Monde (200pcs)",
+      "nbJoueurs": "",
+      "age": "6",
+      "tpsMoyen": "",
+      "poids": "756",
+      "ref": "ludo110"
+    },
+    {
+      "name": "Puzzle art Cameléon (150pcs)",
+      "nbJoueurs": "",
+      "age": "6",
+      "tpsMoyen": "",
+      "poids": "582",
+      "ref": "ludo111"
+    },
+    {
+      "name": "Kaleidos Junior",
+      "nbJoueurs": "2-12",
+      "age": "4",
+      "tpsMoyen": "10'",
+      "poids": "1013",
+      "ref": "ludo112"
+    },
+    {
+      "name": "Déblock",
+      "nbJoueurs": "1-4",
+      "age": "6",
+      "tpsMoyen": "20'",
+      "poids": "786",
+      "ref": "ludo113"
+    },
+    {
+      "name": "Blanc-Manger Coco Junior",
+      "nbJoueurs": "3+",
+      "age": "8",
+      "tpsMoyen": "20'",
+      "poids": "824",
+      "ref": "ludo114"
+    },
+    {
+      "name": "Similo Contes",
+      "nbJoueurs": "2-8",
+      "age": "7",
+      "tpsMoyen": "10'",
+      "poids": "131",
+      "ref": "ludo115"
+    },
+    {
+      "name": "Unlock7! Epic Adventures",
+      "nbJoueurs": "1-6",
+      "age": "10",
+      "tpsMoyen": "60'",
+      "poids": "804",
+      "ref": "ludo116"
+    },
+    {
+      "name": "The Game edition couleur",
+      "nbJoueurs": "1-5",
+      "age": "8",
+      "tpsMoyen": "20'",
+      "poids": "209",
+      "ref": "ludo117"
+    },
+    {
+      "name": "The Game Le Duel",
+      "nbJoueurs": "2",
+      "age": "8",
+      "tpsMoyen": "20'",
+      "poids": "249",
+      "ref": "ludo118"
+    },
+    {
+      "name": "Catan",
+      "nbJoueurs": "3-4",
+      "age": "10",
+      "tpsMoyen": "75'",
+      "poids": "952",
+      "ref": "ludo119"
+    },
+    {
+      "name": "Celestia",
+      "nbJoueurs": "2-6",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "596",
+      "ref": "ludo120"
+    },
+    {
+      "name": "Augustus",
+      "nbJoueurs": "2-6",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "632",
+      "ref": "ludo121"
+    },
+    {
+      "name": "Tantrix - Gigamix",
+      "nbJoueurs": "1-4",
+      "age": "6",
+      "tpsMoyen": "30'",
+      "poids": "599",
+      "ref": "ludo122"
+    },
+    {
+      "name": "Trivial Pursuit Harry Potter Ultimate",
+      "nbJoueurs": "2+",
+      "age": "10",
+      "tpsMoyen": "60'",
+      "poids": "1288",
+      "ref": "ludo123"
+    },
+    {
+      "name": "Specific",
+      "nbJoueurs": "2-10",
+      "age": "6",
+      "tpsMoyen": "20'",
+      "poids": "233",
+      "ref": "ludo124"
+    },
+    {
+      "name": "Escape Game au Château",
+      "nbJoueurs": "1-4",
+      "age": "6",
+      "tpsMoyen": "15'",
+      "poids": "1100",
+      "ref": "ludo125"
+    },
+    {
+      "name": "iKnow",
+      "nbJoueurs": "2-6",
+      "age": "15",
+      "tpsMoyen": "45'",
+      "poids": "858",
+      "ref": "ludo126"
+    },
+    {
+      "name": "Watergate",
+      "nbJoueurs": "2",
+      "age": "12",
+      "tpsMoyen": "45'",
+      "poids": "590",
+      "ref": "ludo127"
+    },
+    {
+      "name": "Kingdomino",
+      "nbJoueurs": "2-4",
+      "age": "8",
+      "tpsMoyen": "15'",
+      "poids": "559",
+      "ref": "ludo128"
+    },
+    {
+      "name": "Fou Fou Fou !",
+      "nbJoueurs": "3-8",
+      "age": "8",
+      "tpsMoyen": "15'",
+      "poids": "167",
+      "ref": "ludo129"
+    },
+    {
+      "name": "Skyjo",
+      "nbJoueurs": "2-8",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "350",
+      "ref": "ludo130"
+    },
+    {
+      "name": "Wingspan",
+      "nbJoueurs": "1-5",
+      "age": "10",
+      "tpsMoyen": "90'",
+      "poids": "2300",
+      "ref": "ludo131"
+    },
+    {
+      "name": "Nouvelles ContRées",
+      "nbJoueurs": "2-6",
+      "age": "10",
+      "tpsMoyen": "30'-60'",
+      "poids": "595",
+      "ref": "ludo132"
+    },
+    {
+      "name": "Unlock10!: Game adventures",
+      "nbJoueurs": "1-6",
+      "age": "10",
+      "tpsMoyen": "60'",
+      "poids": "850",
+      "ref": "ludo133"
+    },
+    {
+      "name": "Kingdomino: Origins",
+      "nbJoueurs": "2-4",
+      "age": "8",
+      "tpsMoyen": "25'",
+      "poids": "820",
+      "ref": "ludo134"
+    },
+    {
+      "name": "Pas vu pas pris",
+      "nbJoueurs": "2-4",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "721",
+      "ref": "ludo135"
+    },
+    {
+      "name": "Top Ten",
+      "nbJoueurs": "4-9",
+      "age": "14",
+      "tpsMoyen": "30'",
+      "poids": "482",
+      "ref": "ludo136"
+    },
+    {
+      "name": "Micro Macro Crime city : Fulle House",
+      "nbJoueurs": "1-4",
+      "age": "10",
+      "tpsMoyen": "15'-45'",
+      "poids": "488",
+      "ref": "ludo137"
+    },
+    {
+      "name": "Unlock! Kids",
+      "nbJoueurs": "1-4",
+      "age": "6",
+      "tpsMoyen": "20'",
+      "poids": "785",
+      "ref": "ludo138"
+    },
+    {
+      "name": "Gagne ton papa",
+      "nbJoueurs": "1-2",
+      "age": "3",
+      "tpsMoyen": "15'",
+      "poids": "792",
+      "ref": "ludo139"
+    },
+    {
+      "name": "7 Wonders Architects",
+      "nbJoueurs": "2-7",
+      "age": "8",
+      "tpsMoyen": "25'",
+      "poids": "1462",
+      "ref": "ludo140"
+    },
+    {
+      "name": "Qwirkle",
+      "nbJoueurs": "2-4",
+      "age": "6",
+      "tpsMoyen": "30'-60'",
+      "poids": "924",
+      "ref": "ludo141"
+    },
+    {
+      "name": "César",
+      "nbJoueurs": "2-5",
+      "age": "10",
+      "tpsMoyen": "30'-60'",
+      "poids": "1998",
+      "ref": "ludo142"
+    },
+    {
+      "name": "Jet Lag",
+      "nbJoueurs": "3 - 8",
+      "age": "12",
+      "tpsMoyen": "30'",
+      "poids": "246",
+      "ref": "ludo143"
+    },
+    {
+      "name": "Bubble Stories",
+      "nbJoueurs": "1 - 2",
+      "age": "4",
+      "tpsMoyen": "20'",
+      "poids": "223",
+      "ref": "ludo144"
+    },
+    {
+      "name": "Fiesta Del Los Muertos",
+      "nbJoueurs": "4 - 8",
+      "age": "12",
+      "tpsMoyen": "30'",
+      "poids": "667",
+      "ref": "ludo145"
+    },
+    {
+      "name": "Sobek",
+      "nbJoueurs": "2",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "621",
+      "ref": "ludo146"
+    },
+    {
+      "name": "5 minutes Marvel",
+      "nbJoueurs": "2 - 5",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "985",
+      "ref": "ludo147"
+    },
+    {
+      "name": "Citadelles 4ème édition",
+      "nbJoueurs": "2 - 8",
+      "age": "10",
+      "tpsMoyen": "30' - 60'",
+      "poids": "446",
+      "ref": "ludo148"
+    },
+    {
+      "name": "Parks",
+      "nbJoueurs": "1 - 5",
+      "age": "10",
+      "tpsMoyen": "30' - 60'",
+      "poids": "1032",
+      "ref": "ludo149"
+    },
+    {
+      "name": "BATA-WAFF",
+      "nbJoueurs": "2-4",
+      "age": "3",
+      "tpsMoyen": "15'",
+      "poids": "160",
+      "ref": "ludo15"
+    },
+    {
+      "name": "Magic Maze",
+      "nbJoueurs": "1 - 8",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "784",
+      "ref": "ludo150"
+    },
+    {
+      "name": "Dragomino",
+      "nbJoueurs": "2 - 4",
+      "age": "5",
+      "tpsMoyen": "30'",
+      "poids": "592",
+      "ref": "ludo151"
+    },
+    {
+      "name": "Living Forest",
+      "nbJoueurs": "2 - 4",
+      "age": "8",
+      "tpsMoyen": "30' - 60'",
+      "poids": "1327",
+      "ref": "ludo152"
+    },
+    {
+      "name": "Ark Nova",
+      "nbJoueurs": "1 -4",
+      "age": "14",
+      "tpsMoyen": "120' - 180'",
+      "poids": "2166",
+      "ref": "ludo153"
+    },
+    {
+      "name": "Butine !",
+      "nbJoueurs": "2 - 4",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "502",
+      "ref": "ludo154"
+    },
+    {
+      "name": "Noé",
+      "nbJoueurs": "2-5",
+      "age": "7",
+      "tpsMoyen": "30'",
+      "poids": "",
+      "ref": "ludo16"
+    },
+    {
+      "name": "7 Wonders: DUEL",
+      "nbJoueurs": "2",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "487",
+      "ref": "ludo17"
+    },
+    {
+      "name": "TAKENOKO",
+      "nbJoueurs": "2-4",
+      "age": "8",
+      "tpsMoyen": "45'",
+      "poids": "930",
+      "ref": "ludo18"
+    },
+    {
+      "name": "Le labyrinthe magique",
+      "nbJoueurs": "2-4",
+      "age": "6",
+      "tpsMoyen": "15'",
+      "poids": "",
+      "ref": "ludo19"
+    },
+    {
+      "name": "Défis Nature",
+      "nbJoueurs": "2-6",
+      "age": "7",
+      "tpsMoyen": "30'",
+      "poids": "",
+      "ref": "ludo20"
+    },
+    {
+      "name": "Pandémie Le remède",
+      "nbJoueurs": "2-5",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "",
+      "ref": "ludo21"
+    },
+    {
+      "name": "Petite Danseuse Etoile",
+      "nbJoueurs": "2-6",
+      "age": "4",
+      "tpsMoyen": "10'",
+      "poids": "",
+      "ref": "ludo22"
+    },
+    {
+      "name": "Shadows Hunters",
+      "nbJoueurs": "4-8",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "",
+      "ref": "ludo23"
+    },
+    {
+      "name": "Brainbox ABC > Disparu",
+      "nbJoueurs": "2+",
+      "age": "4",
+      "tpsMoyen": "10'",
+      "poids": "",
+      "ref": "ludo24"
+    },
+    {
+      "name": "Tour du Dragon",
+      "nbJoueurs": "2-4",
+      "age": "5-9",
+      "tpsMoyen": "15'",
+      "poids": "",
+      "ref": "ludo25"
+    },
+    {
+      "name": "Time's Up Kids",
+      "nbJoueurs": "4+",
+      "age": "2-1",
+      "tpsMoyen": "20'",
+      "poids": "560",
+      "ref": "ludo26"
+    },
+    {
+      "name": "Kikou le Coucou",
+      "nbJoueurs": "2-5",
+      "age": "4-9",
+      "tpsMoyen": "15'",
+      "poids": "",
+      "ref": "ludo27"
+    },
+    {
+      "name": "Piou Piou",
+      "nbJoueurs": "2-5",
+      "age": "5-9",
+      "tpsMoyen": "10'",
+      "poids": "",
+      "ref": "ludo28"
+    },
+    {
+      "name": "Aladin et la lampe merveilleuse",
+      "nbJoueurs": "2-5",
+      "age": "7",
+      "tpsMoyen": "20'",
+      "poids": "",
+      "ref": "ludo29"
+    },
+    {
+      "name": "Carcassonne par monts et par vaux",
+      "nbJoueurs": "2-5",
+      "age": "7",
+      "tpsMoyen": "35'",
+      "poids": "598",
+      "ref": "ludo30"
+    },
+    {
+      "name": "La course des tortues",
+      "nbJoueurs": "2-5",
+      "age": "5",
+      "tpsMoyen": "20'",
+      "poids": "528",
+      "ref": "ludo31"
+    },
+    {
+      "name": "Mito - Permis de tricher",
+      "nbJoueurs": "3-5",
+      "age": "7",
+      "tpsMoyen": "25'",
+      "poids": "",
+      "ref": "ludo32"
+    },
+    {
+      "name": "Bazar Bizarre",
+      "nbJoueurs": "2-8",
+      "age": "6",
+      "tpsMoyen": "20'",
+      "poids": "",
+      "ref": "ludo33"
+    },
+    {
+      "name": "Jamaica",
+      "nbJoueurs": "2-6",
+      "age": "8",
+      "tpsMoyen": "30-60'",
+      "poids": "1222",
+      "ref": "ludo34"
+    },
+    {
+      "name": "Hop! Hop! Galopons!",
+      "nbJoueurs": "2-4",
+      "age": "3-1",
+      "tpsMoyen": "10'",
+      "poids": "744",
+      "ref": "ludo35"
+    },
+    {
+      "name": "Imagine",
+      "nbJoueurs": "3-8",
+      "age": "12",
+      "tpsMoyen": "30'",
+      "poids": "407",
+      "ref": "ludo36"
+    },
+    {
+      "name": "Lift it!",
+      "nbJoueurs": "1-8",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "",
+      "ref": "ludo37"
+    },
+    {
+      "name": "Mysterium",
+      "nbJoueurs": "2-7",
+      "age": "10",
+      "tpsMoyen": "42'",
+      "poids": "1396",
+      "ref": "ludo38"
+    },
+    {
+      "name": "Stupide vautour",
+      "nbJoueurs": "2-5",
+      "age": "8",
+      "tpsMoyen": "20'",
+      "poids": "230",
+      "ref": "ludo39"
+    },
+    {
+      "name": "Vice & Versa",
+      "nbJoueurs": "2-6",
+      "age": "4",
+      "tpsMoyen": "10'",
+      "poids": "",
+      "ref": "ludo40"
+    },
+    {
+      "name": "Chef de tribu Boum -Ba- Boum",
+      "nbJoueurs": "3-5",
+      "age": "6",
+      "tpsMoyen": "15'",
+      "poids": "",
+      "ref": "ludo41"
+    },
+    {
+      "name": "Blanc-Manger Coco",
+      "nbJoueurs": "3-20",
+      "age": "16",
+      "tpsMoyen": "20'",
+      "poids": "975",
+      "ref": "ludo42"
+    },
+    {
+      "name": "Exit: La cabane abandonnée",
+      "nbJoueurs": "1-6",
+      "age": "12",
+      "tpsMoyen": "60'",
+      "poids": "248",
+      "ref": "ludo43"
+    },
+    {
+      "name": "Colt Express",
+      "nbJoueurs": "2-6",
+      "age": "10",
+      "tpsMoyen": "40'",
+      "poids": "960",
+      "ref": "ludo44"
+    },
+    {
+      "name": "Unlock2 ! Mystery Adventures",
+      "nbJoueurs": "1-6",
+      "age": "10",
+      "tpsMoyen": "60'",
+      "poids": "701",
+      "ref": "ludo45"
+    },
+    {
+      "name": "Concept",
+      "nbJoueurs": "4-12",
+      "age": "10",
+      "tpsMoyen": "40'",
+      "poids": "951",
+      "ref": "ludo46"
+    },
+    {
+      "name": "Isle of Skye",
+      "nbJoueurs": "2-5",
+      "age": "8",
+      "tpsMoyen": "60'",
+      "poids": "825",
+      "ref": "ludo47"
+    },
+    {
+      "name": "Wanted (Bang!)",
+      "nbJoueurs": "4-7",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "345",
+      "ref": "ludo48"
+    },
+    {
+      "name": "MMM !",
+      "nbJoueurs": "1-6",
+      "age": "5",
+      "tpsMoyen": "20'",
+      "poids": "480",
+      "ref": "ludo49"
+    },
+    {
+      "name": "Piratatak",
+      "nbJoueurs": "2-4",
+      "age": "5-",
+      "tpsMoyen": "15'",
+      "poids": "210",
+      "ref": "ludo50"
+    },
+    {
+      "name": "Kakerlaken Poker (Bug Bluff)",
+      "nbJoueurs": "2-6",
+      "age": "8",
+      "tpsMoyen": "15-25'",
+      "poids": "172",
+      "ref": "ludo51"
+    },
+    {
+      "name": "Au bal masqué des coccinelles",
+      "nbJoueurs": "2-6",
+      "age": "4",
+      "tpsMoyen": "30'",
+      "poids": "629",
+      "ref": "ludo52"
+    },
+    {
+      "name": "Les monstres farceurs",
+      "nbJoueurs": "2-6",
+      "age": "6",
+      "tpsMoyen": "30'",
+      "poids": "182",
+      "ref": "ludo53"
+    },
+    {
+      "name": "Petites sorcières",
+      "nbJoueurs": "2-6",
+      "age": "3,5-",
+      "tpsMoyen": "15'",
+      "poids": "756",
+      "ref": "ludo54"
+    },
+    {
+      "name": "Puissance 4 Evolution",
+      "nbJoueurs": "2",
+      "age": "8",
+      "tpsMoyen": "",
+      "poids": "921",
+      "ref": "ludo55"
+    },
+    {
+      "name": "Twister",
+      "nbJoueurs": "3-6",
+      "age": "6",
+      "tpsMoyen": "20'",
+      "poids": "605",
+      "ref": "ludo56"
+    },
+    {
+      "name": "Karuba",
+      "nbJoueurs": "2-4",
+      "age": "8",
+      "tpsMoyen": "40'",
+      "poids": "992",
+      "ref": "ludo61"
+    },
+    {
+      "name": "Code Names",
+      "nbJoueurs": "2-8",
+      "age": "12",
+      "tpsMoyen": "15'",
+      "poids": "500",
+      "ref": "ludo62"
+    },
+    {
+      "name": "L'île Interdite",
+      "nbJoueurs": "2-4",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "600",
+      "ref": "ludo63"
+    },
+    {
+      "name": "Splendor",
+      "nbJoueurs": "2-4",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "818",
+      "ref": "ludo64"
+    },
+    {
+      "name": "Maître Renard",
+      "nbJoueurs": "2-4",
+      "age": "7",
+      "tpsMoyen": "20'",
+      "poids": "420",
+      "ref": "ludo65"
+    },
+    {
+      "name": "Twin It!",
+      "nbJoueurs": "2-6",
+      "age": "6",
+      "tpsMoyen": "10'",
+      "poids": "223",
+      "ref": "ludo66"
+    },
+    {
+      "name": "T.I.M.E Stories",
+      "nbJoueurs": "2-4",
+      "age": "12",
+      "tpsMoyen": "90'",
+      "poids": "1730",
+      "ref": "ludo67"
+    },
+    {
+      "name": "Unlock1! Escape Adventures",
+      "nbJoueurs": "2-6",
+      "age": "10",
+      "tpsMoyen": "60",
+      "poids": "703",
+      "ref": "ludo68"
+    },
+    {
+      "name": "BOOUM !",
+      "nbJoueurs": "2-4",
+      "age": "7",
+      "tpsMoyen": "",
+      "poids": "626",
+      "ref": "ludo69"
+    },
+    {
+      "name": "Unlock3! Secret Adventures",
+      "nbJoueurs": "1-6",
+      "age": "10",
+      "tpsMoyen": "60",
+      "poids": "760",
+      "ref": "ludo70"
+    },
+    {
+      "name": "La Course Farfelue Des Souris Des Champs",
+      "nbJoueurs": "2-4",
+      "age": "5",
+      "tpsMoyen": "15",
+      "poids": "664",
+      "ref": "ludo71"
+    },
+    {
+      "name": "Rush Hour",
+      "nbJoueurs": "1",
+      "age": "8",
+      "tpsMoyen": "10'",
+      "poids": "366",
+      "ref": "ludo72"
+    },
+    {
+      "name": "Privacy ?!",
+      "nbJoueurs": "3-12",
+      "age": "18",
+      "tpsMoyen": "30'",
+      "poids": "687",
+      "ref": "ludo73"
+    },
+    {
+      "name": "Les Charlatans de Belcastel",
+      "nbJoueurs": "2-4",
+      "age": "10",
+      "tpsMoyen": "45'",
+      "poids": "1155",
+      "ref": "ludo74"
+    },
+    {
+      "name": "Sherlock Holmes: Les meurtres de la Tamise",
+      "nbJoueurs": "1-8",
+      "age": "14",
+      "tpsMoyen": "90'",
+      "poids": "1954",
+      "ref": "ludo75"
+    },
+    {
+      "name": "Perplexus Original",
+      "nbJoueurs": "1",
+      "age": "8",
+      "tpsMoyen": "",
+      "poids": "382",
+      "ref": "ludo76"
+    },
+    {
+      "name": "7 Wonders",
+      "nbJoueurs": "2-7",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "1139",
+      "ref": "ludo77"
+    },
+    {
+      "name": "Dixit Odyssey",
+      "nbJoueurs": "3-12",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "810",
+      "ref": "ludo78"
+    },
+    {
+      "name": "Azul",
+      "nbJoueurs": "2-4",
+      "age": "8",
+      "tpsMoyen": "30-45",
+      "poids": "1185",
+      "ref": "ludo79"
+    },
+    {
+      "name": "Orbis",
+      "nbJoueurs": "2-4",
+      "age": "10",
+      "tpsMoyen": "45'",
+      "poids": "783",
+      "ref": "ludo80"
+    },
+    {
+      "name": "Puzzle Rainbow Tigers (1000pcs)",
+      "nbJoueurs": "",
+      "age": "9",
+      "tpsMoyen": "",
+      "poids": "772",
+      "ref": "ludo81"
+    },
+    {
+      "name": "Puzzle Day at the Zoo (48pcs)",
+      "nbJoueurs": "",
+      "age": "4",
+      "tpsMoyen": "",
+      "poids": "725",
+      "ref": "ludo82"
+    },
+    {
+      "name": "Puzzle observation Animaux (100pcs)",
+      "nbJoueurs": "",
+      "age": "6",
+      "tpsMoyen": "",
+      "poids": "730",
+      "ref": "ludo83"
+    },
+    {
+      "name": "Quarto",
+      "nbJoueurs": "2",
+      "age": "8",
+      "tpsMoyen": "15'",
+      "poids": "1140",
+      "ref": "ludo84"
+    },
+    {
+      "name": "Unlock4! Exotic Adventures",
+      "nbJoueurs": "1-6",
+      "age": "10",
+      "tpsMoyen": "60'",
+      "poids": "705",
+      "ref": "ludo85"
+    },
+    {
+      "name": "Unlock5! Heroic Adventures",
+      "nbJoueurs": "1-6",
+      "age": "10",
+      "tpsMoyen": "60'",
+      "poids": "722",
+      "ref": "ludo86"
+    },
+    {
+      "name": "Sequence",
+      "nbJoueurs": "2-12",
+      "age": "6",
+      "tpsMoyen": "30'",
+      "poids": "971",
+      "ref": "ludo87"
+    },
+    {
+      "name": "Saboteur Le Duel",
+      "nbJoueurs": "1-2",
+      "age": "8",
+      "tpsMoyen": "30'",
+      "poids": "231",
+      "ref": "ludo88"
+    },
+    {
+      "name": "The Mind",
+      "nbJoueurs": "2-4",
+      "age": "8",
+      "tpsMoyen": "20'",
+      "poids": "245",
+      "ref": "ludo89"
+    },
+    {
+      "name": "Brains: jardin Japonais",
+      "nbJoueurs": "1",
+      "age": "10",
+      "tpsMoyen": "5-20'",
+      "poids": "291",
+      "ref": "ludo90"
+    },
+    {
+      "name": "ClacClac",
+      "nbJoueurs": "2-6",
+      "age": "4",
+      "tpsMoyen": "10'",
+      "poids": "487",
+      "ref": "ludo91"
+    },
+    {
+      "name": "Mon Premier Carcassonne",
+      "nbJoueurs": "2-4",
+      "age": "4",
+      "tpsMoyen": "20'",
+      "poids": "755",
+      "ref": "ludo92"
+    },
+    {
+      "name": "Nom d'un Renard !",
+      "nbJoueurs": "2-4",
+      "age": "5",
+      "tpsMoyen": "20'",
+      "poids": "703",
+      "ref": "ludo93"
+    },
+    {
+      "name": "Pavlova Coco",
+      "nbJoueurs": "3-8",
+      "age": "18",
+      "tpsMoyen": "20'",
+      "poids": "1176",
+      "ref": "ludo94"
+    },
+    {
+      "name": "Exploding Kittens",
+      "nbJoueurs": "2-5",
+      "age": "7",
+      "tpsMoyen": "15'",
+      "poids": "213",
+      "ref": "ludo95"
+    },
+    {
+      "name": "Best Of Loups Garous",
+      "nbJoueurs": "8-28",
+      "age": "10",
+      "tpsMoyen": "30'",
+      "poids": "395",
+      "ref": "ludo96"
+    },
+    {
+      "name": "Mr Jack le duel",
+      "nbJoueurs": "2",
+      "age": "9",
+      "tpsMoyen": "30'",
+      "poids": "750",
+      "ref": "ludo98"
+    },
+    {
+      "name": "Unlock6! Timeless Adventures",
+      "nbJoueurs": "1-6",
+      "age": "10",
+      "tpsMoyen": "60'",
+      "poids": "754",
+      "ref": "ludo99"
+    },
+    {
+      "name": "Les aventurier du rail",
+      "nbJoueurs": "2-5",
+      "age": "8",
+      "tpsMoyen": "45'",
+      "poids": "1314",
+      "ref": "STC56"
+    },
+    {
+      "name": "CAN'T STOP",
+      "nbJoueurs": "2",
+      "age": "3",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Cluedo",
+      "nbJoueurs": "3-6",
+      "age": "8",
+      "tpsMoyen": "",
+      "poids": "1038",
+      "ref": ""
+    },
+    {
+      "name": "Cluedo Junior",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Defifoo",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Echec contre Kasparov",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Fragrances",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Geomag",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Jeux de bataille",
+      "nbJoueurs": "",
+      "age": "",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Katamino Junior",
+      "nbJoueurs": "1-2",
+      "age": "6",
+      "tpsMoyen": "15'",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Loto Memory",
+      "nbJoueurs": "2",
+      "age": "2",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Mastermind",
+      "nbJoueurs": "2",
+      "age": "8",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Mille bornes",
+      "nbJoueurs": "2",
+      "age": "3",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Pippo",
+      "nbJoueurs": "2-8",
+      "age": "4",
+      "tpsMoyen": "15'",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Tac-Tik",
+      "nbJoueurs": "2-6",
+      "age": "3",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Time's",
+      "nbJoueurs": "2",
+      "age": "3",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Visionary",
+      "nbJoueurs": "2",
+      "age": "3",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    },
+    {
+      "name": "Zoom street - Mastermind junior",
+      "nbJoueurs": "2",
+      "age": "3",
+      "tpsMoyen": "",
+      "poids": "",
+      "ref": ""
+    }
+  ],
+  "jeuxVideos": {
+    "ps4": {
+    },
+    "ps5": {
+    },
+    "switch": {
+    }
+  },
+  "autres": {
+  }
+}
