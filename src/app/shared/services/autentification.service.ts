@@ -1,9 +1,8 @@
 import {Injectable} from '@angular/core';
-import {AngularFirestore, AngularFirestoreDocument} from '@angular/fire/firestore';
+import {AngularFirestore, AngularFirestoreDocument} from '@angular/fire/compat/firestore';
+import {AngularFireAuth} from '@angular/fire/compat/auth';
 import {User} from '../models/user';
 import {Router} from '@angular/router';
-import {AngularFireAuth} from '@angular/fire/auth';
-import * as firebase from 'firebase';
 
 @Injectable({
   providedIn: 'root'
@@ -36,9 +35,9 @@ export class AutentificationService {
   }
 
   // Sign in with Gmail
-  googleAuth() {
-    return this.authLogin(new firebase.default.auth.GoogleAuthProvider());
-  }
+  // googleAuth() {
+  //   return this.authLogin(new firebase.default.auth.GoogleAuthProvider());
+  // }
 
   // Auth providers
   authLogin(provider) {

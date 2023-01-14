@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {GameLibraryService} from '../../shared/services/game-library.service';
 import {Observable} from 'rxjs';
-import {BGGService} from '../../shared/services/bgg.service';
-import {Thing} from '../../shared/models/game';
+import {BoardGame, Thing} from '../../shared/models/game';
 import {AutentificationService} from '../../shared/services/autentification.service';
+import {ThingToBoardgame} from '../../shared/models/ThingToBoardgame';
 
 @Component({
   selector: 'app-game-library',
@@ -37,5 +37,9 @@ export class GameLibraryComponent implements OnInit {
     }, err => {
       console.error(err);
     });
+  }
+
+  convert(game: Thing): BoardGame {
+    return ThingToBoardgame.convertGameDetailsThingToBoardGame(game);
   }
 }

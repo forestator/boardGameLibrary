@@ -1,9 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {BGGService} from '../../shared/services/bgg.service';
 import {Observable} from 'rxjs';
-import {Thing} from '../../shared/models/game';
-import {take} from 'rxjs/operators';
-import {GameLibraryService} from '../../shared/services/game-library.service';
+import {BoardGame, Thing} from '../../shared/models/game';
+import {ThingToBoardgame} from '../../shared/models/ThingToBoardgame';
 
 @Component({
   selector: 'app-game-search',
@@ -15,11 +14,10 @@ export class GameSearchComponent implements OnInit {
   search = 'Takenoko';
   foundGames: Observable<Array<Thing>>;
 
-  constructor(private bggService: BGGService, private gameLibraryService: GameLibraryService) {
+  constructor(private bggService: BGGService) {
   }
 
   ngOnInit() {
-    // todo remove
     this.doSearch();
   }
 
@@ -29,12 +27,7 @@ export class GameSearchComponent implements OnInit {
     }
   }
 
-  addToLibrary(thing: Thing) {
-    this.gameLibraryService.addGameToLibrary(thing).then(res => {
-      console.log(res);
-      // todo toaster
-    }, err => {
-      console.error(err);
-    });
+  convert(game: Thing): BoardGame {
+    return ThingToBoardgame.convertGameDetailsThingToBoardGame(game);
   }
 }

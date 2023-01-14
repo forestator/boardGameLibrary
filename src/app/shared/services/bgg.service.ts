@@ -1,9 +1,10 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {map, mergeMap} from 'rxjs/operators';
-import {Observable, of} from 'rxjs';
+import {map} from 'rxjs/operators';
+import {Observable} from 'rxjs';
 import * as convert from 'xml-js';
-import {Thing} from '../models/game';
+import {BoardGame, Thing} from '../models/game';
+import {ThingToBoardgame} from '../models/ThingToBoardgame';
 
 @Injectable({
   providedIn: 'root'
@@ -32,8 +33,10 @@ export class BGGService {
     return this.send(url);
   }
 
-  gameDetails(gameId: string): Observable<Thing> {
+  gameDetails(gameId: string): Observable<BoardGame> {
     const url = `${this.bggUrl}/thing?id=${gameId}`;
-    return this.send(url).pipe(map(rep => rep[0]));
+    return this.send(url).pipe(map(rep => {
+      return ThingToBoardgame.convertGameDetailsThingToBoardGame(rep[0]);
+    }));
   }
 }

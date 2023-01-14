@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Thing} from '../../models/game';
+import {BoardGame} from '../../models/game';
 
 @Component({
   selector: 'app-game-details',
@@ -8,15 +8,12 @@ import {Thing} from '../../models/game';
 })
 export class GameDetailsComponent implements OnInit {
 
-  @Input() game: Thing;
-
-  gameDescription: string;
+  @Input() game: BoardGame;
 
   constructor() {
   }
 
   ngOnInit() {
-    this.gameDescription = this.game.elements.find(el => el.name === 'description').elements[0].text;
   }
 
 }

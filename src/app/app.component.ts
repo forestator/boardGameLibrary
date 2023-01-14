@@ -23,7 +23,7 @@ export class AppComponent {
   }
 
   login() {
-    this.auth.googleAuth();
+    // this.auth.googleAuth();
   }
 
   logout() {
